@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mostrar Hojas</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <h1>Datos de las Hojas</h1>
+  <div class="container">
+    <div class="form-container">
+      <h2>Añadir Nueva Hoja</h2>
+      <form id="add-hoja-form">
+        <input type="text" id="nombre" placeholder="Nombre de la hoja" required>
+        <input type="text" id="dato1" placeholder="Dato1" required>
+        <input type="text" id="dato2" placeholder="Dato2" required>
+        <input type="text" id="dato3" placeholder="Dato3" required>
+        <input type="text" id="dato4" placeholder="Dato4" required>
+        <input type="text" id="dato5" placeholder="Dato5" required>
+        <input type="text" id="dato6" placeholder="Dato6" required>
+        <button type="submit">Añadir Hoja</button>
+        <button id="export-button" onclick="exportHojas()">Actualizar Hojas</button>
+      </form>
+    </div>
+
+    <div class="page-container">
+      <div id="hoja-container" class="hoja"></div>
+      <div class="buttons">
+        <button id="prev-button">&larr;</button>
+        <button id="next-button">&rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
