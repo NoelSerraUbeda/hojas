@@ -35,34 +35,43 @@ function showHoja(index) {
   hojaContainer.innerHTML = '';
 
   const hoja = hojas[index];
-  const hojaTitle = document.createElement('h2');
+  const hojaTitle = document.createElement('h1');
   hojaTitle.textContent = hoja.nombre;
   hojaContainer.appendChild(hojaTitle);
 
-  for (let i = 1; i <= 6; i++) {
+  const labels = ["Edad", "Poder", "Lugar Nacimiento", "Plato favorito", "Le gusta", "No le gusta"];
+  const keys = ["edad", "poder", "lugarNacimiento", "platoFavorito", "leGusta", "noLeGusta"];
+
+  for (let i = 0; i < labels.length; i++) {
     const datoP = document.createElement('p');
-    datoP.textContent = `Dato${i}: ${hoja[`dato${i}`]}`;
+
+    const datoH2 = document.createElement('h2');
+    datoH2.textContent = `${labels[i]}:`;
+
+    datoP.appendChild(datoH2);
+    datoP.append(` ${hoja[keys[i]]}`);
+
     hojaContainer.appendChild(datoP);
   }
 }
 
 function addHoja() {
   const nombre = document.getElementById('nombre').value;
-  const dato1 = document.getElementById('dato1').value;
-  const dato2 = document.getElementById('dato2').value;
-  const dato3 = document.getElementById('dato3').value;
-  const dato4 = document.getElementById('dato4').value;
-  const dato5 = document.getElementById('dato5').value;
-  const dato6 = document.getElementById('dato6').value;
+  const edad = document.getElementById('edad').value;
+  const poder = document.getElementById('poder').value;
+  const lugarNacimiento = document.getElementById('lugarNacimiento').value;
+  const platoFavorito = document.getElementById('platoFavorito').value;
+  const leGusta = document.getElementById('leGusta').value;
+  const noLeGusta = document.getElementById('noLeGusta').value;
 
   const nuevaHoja = {
     nombre: nombre,
-    dato1: dato1,
-    dato2: dato2,
-    dato3: dato3,
-    dato4: dato4,
-    dato5: dato5,
-    dato6: dato6
+    edad: edad,
+    poder: poder,
+    lugarNacimiento: lugarNacimiento,
+    platoFavorito: platoFavorito,
+    leGusta: leGusta,
+    noLeGusta: noLeGusta
   };
 
   hojas.push(nuevaHoja);
@@ -83,5 +92,3 @@ function exportHojas() {
   a.click();
   URL.revokeObjectURL(url);
 }
-
-

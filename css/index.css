@@ -6,10 +6,30 @@ body {
   margin: 20px;
 }
 
+h1 {
+  margin: 0;
+}
+
 .container {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap:2rem;
+}
+
+h2 {
+  font-size: 22px;
+  width: 13rem;
+}
+
+p{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+  font-size: 20px;
+  height: 4.5rem;
+  gap:1rem;
 }
 
 .form-container {
@@ -17,15 +37,18 @@ body {
   padding: 10px;
   margin: 10px 0;
   width: 300px;
-  height: 400px;
 }
 
 .page-container {
   border: 1px solid #ccc;
+  border-radius: 15px;
   padding: 10px;
   margin: 10px 0;
-  width: 300px;
-  height: 400px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .hoja h2,
@@ -37,7 +60,8 @@ body {
 .buttons {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  align-items: center;
+  width: 100%;
 }
 
 button {
@@ -56,15 +80,8 @@ input[type="text"] {
   font-size: 14px;
 }
 
-.modify-buttons {
-  width: 100%;
+.form-buttons {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 0.5rem;
-}
-
-
-.submit{
-  width: 100%;
+  flex-direction: column;
+  gap: 0.5rem;
 }

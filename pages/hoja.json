@@ -2,57 +2,57 @@
   "hojas": [
     {
       "nombre": "hoja1",
-      "dato1": "valor1.1",
-      "dato2": "valor1.2",
-      "dato3": "valor1.3",
-      "dato4": "valor1.4",
-      "dato5": "valor1.5",
-      "dato6": "valor1.6"
+      "edad": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero odio, consectetur ac mattis quis, iaculis eget est. Maecenas venenatis hendrerit nunc, et varius sem imperdiet sit amet. Nam a faucibus erat. ",
+      "poder": "Proin diam elit, tristique in magna iaculis, mattis vulputate enim. Praesent metus augue, molestie nec sem quis, cursus pharetra metus. ",
+      "lugarNacimiento": "Mauris odio lorem, maximus ac iaculis ut, ultrices nec lacus. Donec tempor sit amet mi eu luctus.",
+      "platoFavorito": "Nullam et ipsum purus. Mauris rhoncus felis sollicitudin, convallis lectus vitae, faucibus tellus.",
+      "leGusta": "Proin quis massa nisi. Sed neque arcu, vulputate et metus a, sodales dignissim urna. Mauris congue elit a purus pharetra commodo.",
+      "noLeGusta": "In nulla ex, finibus eu nibh sed, mollis porta mauris. Curabitur metus lacus, tincidunt non dignissim eget, euismod in libero."
     },
     {
       "nombre": "hoja2",
-      "dato1": "valor2.1",
-      "dato2": "valor2.2",
-      "dato3": "valor2.3",
-      "dato4": "valor2.4",
-      "dato5": "valor2.5",
-      "dato6": "valor2.6"
+      "edad": "valor2.1",
+      "poder": "valor2.2",
+      "lugarNacimiento": "valor2.3",
+      "platoFavorito": "valor2.4",
+      "leGusta": "valor2.5",
+      "noLeGusta": "valor2.6"
     },
     {
       "nombre": "hoja3",
-      "dato1": "valor3.1",
-      "dato2": "valor3.2",
-      "dato3": "valor3.3",
-      "dato4": "valor3.4",
-      "dato5": "valor3.5",
-      "dato6": "valor3.6"
+      "edad": "valor3.1",
+      "poder": "valor3.2",
+      "lugarNacimiento": "valor3.3",
+      "platoFavorito": "valor3.4",
+      "leGusta": "valor3.5",
+      "noLeGusta": "valor3.6"
     },
     {
       "nombre": "hoja4",
-      "dato1": "valor4.1",
-      "dato2": "valor4.2",
-      "dato3": "valor4.3",
-      "dato4": "valor4.4",
-      "dato5": "valor4.5",
-      "dato6": "valor4.6"
+      "edad": "valor4.1",
+      "poder": "valor4.2",
+      "lugarNacimiento": "valor4.3",
+      "platoFavorito": "valor4.4",
+      "leGusta": "valor4.5",
+      "noLeGusta": "valor4.6"
     },
     {
       "nombre": "hoja5",
-      "dato1": "valor5.1",
-      "dato2": "valor5.2",
-      "dato3": "valor5.3",
-      "dato4": "valor5.4",
-      "dato5": "valor5.5",
-      "dato6": "valor5.6"
+      "edad": "valor5.1",
+      "poder": "valor5.2",
+      "lugarNacimiento": "valor5.3",
+      "platoFavorito": "valor5.4",
+      "leGusta": "valor5.5",
+      "noLeGusta": "valor5.6"
     },
     {
       "nombre": "hoja6",
-      "dato1": "valor6.1",
-      "dato2": "valor6.2",
-      "dato3": "valor6.3",
-      "dato4": "valor6.4",
-      "dato5": "valor6.5",
-      "dato6": "valor6.6"
+      "edad": "valor6.1",
+      "poder": "valor6.2",
+      "lugarNacimiento": "valor6.3",
+      "platoFavorito": "valor6.4",
+      "leGusta": "valor6.5",
+      "noLeGusta": "valor6.6"
     }
   ]
 }
